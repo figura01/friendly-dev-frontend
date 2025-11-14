@@ -39,7 +39,7 @@ const AboutPage = () => {
         <p className="text-gray-300">
           I'm proficient in a variety of technologies, including:
         </p>
-        <ul className="list-disc list-inside text-gray-300">
+        <ul className="flex list-disc list-inside text-gray-300 gap-2">
           {[
             "React",
             "Next.js",
@@ -52,7 +52,7 @@ const AboutPage = () => {
             "PostgreSQL",
             "Docker",
           ].map((tech) => (
-            <li key={tech} className="bg-gray-700 px-3 py-1 rounded-md">
+            <li key={tech} className="flex bg-gray-700 px-3 py-1 rounded-md">
               {tech}
             </li>
           ))}

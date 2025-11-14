@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "The Friendly Dev | Projects" },
+    { title: "The LVDEV | Projects" },
     { name: "description", content: "My website project portfolio" },
   ];
 }
